@@ -1,7 +1,7 @@
 # Site settings
 title: Verbal
 description: Tu dosis diaria de léxico
-baseurl: ""
+baseurl: "/verbal"
 url: ""
 language: es
 
@@ -10,6 +10,10 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+
+# Include app-ads.txt at root without processing
+include:
+  - app-ads.txt
 
 # Exclude from processing
 exclude:
